@@ -1,14 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 
 /*main section for navigationbar*/
-.navmain{
+.navmain {
 	height:70px;
 	width:100%;
 	margin:0px auto;
 	background-color: #fff;
-
 	position: fixed;
 	top:0px;
-
 }
 
 
@@ -44,13 +46,14 @@
 	list-style: none;
 	}
 
-.navmain .menubar >li a{
-
+.navmain .menubar >li a {
 	text-decoration:none;
 	display: inline-block;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;}
-	
+	font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+
 .navmain .menubar li a:hover{
 	background: #B3B8AE;
 	color:red;
@@ -58,17 +61,15 @@
 
 }
 
-.image2{
-width:100%;
-height:600px;
-background-image: url('../imag/backimage.jpg');	
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-margin-top: 10px;
-overflow: auto; 
-
-
+.image2 {
+    width:100%;
+    height:600px;
+    background-image: url('../imag/backimage.jpg');	
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    overflow: auto; 
 }
 
 .letter{
@@ -124,44 +125,41 @@ list-style:none;
 }
 
 .threepic{
-
-	margin:0px;
 	padding:0px;
 	overflow: auto; 
+    text-align: center;
 }
 
-.threepic ul{
-
+.threepic ul {
 	margin-top:30px;
+    margin-right: auto;
+    margin-left: auto;
 	padding:0px; 
-	margin-left: 260px;
 }
 
-.threepic li{
-	float: left;
+.threepic li {
 	margin:0px;
 	padding:0px;
-	position: relative;
 	width:300px;
 	list-style:none;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.threepic p{
+.threepic p {
 	font-size: 30px;
-
+    text-align: center;
+    vertical-align: top;
 }
-
 
 .footer{
 	margin-top:20px;
-	margin-left:500px;
-
-
+	margin-left:auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .footerul li{
-	
-		
 	width:40px;
 	height:30px;
 	margin:10px;
@@ -169,10 +167,8 @@ list-style:none;
 	padding-top:10px;
 	border-radius: 650px 650px 650px 650px;
 	list-style:none;
-	float:left;
 	border: 1px solid #D2D5DB;
-	
-
+    display: inline-block;
 }
 
 .fa-twitter{
