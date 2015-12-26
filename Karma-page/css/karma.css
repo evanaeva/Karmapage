@@ -7,7 +7,6 @@ body {
 .navmain {
 	height:70px;
 	width:100%;
-	margin:0px auto;
 	background-color: #fff;
 	position: fixed;
 	top:0px;
@@ -19,20 +18,24 @@ body {
 
 	height:70px;
 	width:860px;
-	margin-left:100px;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 .navmain .image{
 	width:30px;
-	height:60px;
+	height:40px;
 	float:left;
+	margin-left:30px;
+	margin-top:15px;
+
 }
 
 /* dropdown menu*/
 .navmain .menubar{
 	margin:0px;
 	padding: 0px;
-	margin-left: 70px;
+	margin-left: 200px;
 	
 
 	
@@ -40,11 +43,16 @@ body {
 .navmain .menubar>li{
 
 	float:left;
-	width:130px;
+	width:100px;
 	margin-top:20px;
 	padding-top: 10px;
 	list-style: none;
+	letter-spacing: -1px;
+
 	}
+
+	
+
 
 .navmain .menubar >li a {
 	text-decoration:none;
@@ -54,9 +62,9 @@ body {
     color: gray;
 }
 
+
 .navmain .menubar li a:hover{
-	background: #B3B8AE;
-	color:red;
+	color:black;
 	cursor: pointer;
 
 }
@@ -181,4 +189,26 @@ list-style:none;
 
 .fa-instagram{
 	color:#1A3A82;
+}
+
+hr{
+	display: block;
+	width:70%;
+	color: #ECF1F4;
+}
+
+.joinus{
+	text-align: center;
+	font-size:25px;
+	vertical-align: top;
+	padding-left:40px;
+	margin-top:20px;
+
+}
+
+.copy{
+	text-align: center;
+	color:gray;
+	padding-left: 40px;
+
 }
